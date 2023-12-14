@@ -8,5 +8,5 @@ spec:
   ref:
     branch: main
   url: https://gitlab.com/axual/iris/flux-cd-playground/bitnami-kafka.git
-  secretRef: # use token auth
+  secretRef:
     name: info-auth-example-3
