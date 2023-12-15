@@ -9,4 +9,4 @@ spec:
     branch: main
   url: https://gitlab.com/axual/iris/flux-cd-playground/bitnami-kafka.git
   secretRef:
-    name: info-auth-example-3
+    name: info-auth-example-1
