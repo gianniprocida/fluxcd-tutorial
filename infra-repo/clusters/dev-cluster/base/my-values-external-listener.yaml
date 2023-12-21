@@ -1,0 +1,14 @@
+controller:
+  replicaCount: 2
+externalAccess:
+  enabled: true
+  controller:
+    service:
+      type: NodePort
+      nodePorts:
+        - 30120
+        - 30121
+      useHostIPs: false
+      annotations: {}
+      domain: 127.0.0.1
+
